@@ -1,0 +1,61 @@
+:root{
+    --branco: white;
+    --dark: black;
+    --btn: dodgerblue;
+    --purple: black; 
+    --white: purple;
+}
+.dark{
+    --branco: black;
+    --dark: white;
+    --btn: rgb(114, 3, 114);
+    --purple: purple;
+    --white: white;
+}
+*{
+    margin-top: 0;
+    padding: 0;
+}
+#sla{
+    color: var(--purple);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--branco);
+    color: var(--dark);
+    transition: 1s;
+}
+h1 #sls{
+    color: var(--white);
+    transition: 1s;
+}
+div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--btn);
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.dark button{
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+}
+.dark i {
+    color: white;
+}
+i{
+    font-size: 1.2rem;
+}
